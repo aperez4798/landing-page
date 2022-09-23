@@ -53,7 +53,7 @@ a {
 img {
     max-width: 500px;
     width: 500px;
-    height: auto;
+    height: 350px;
 }
 
 .left {
@@ -101,10 +101,13 @@ h1 {
 }
 
 .illustration {
-    padding: 20px;
+    padding: 20px 30px;
     text-align: center;
     margin-bottom: 50px;
-    font-weight: 400
+    font-weight: 400;
+    font-size: 12px;
+    height: 200px;
+    width: 200px
 }
 
 
