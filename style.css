@@ -101,14 +101,11 @@ h1 {
 }
 
 .illustration {
-    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
-    margin-bottom: 50px;
-    font-weight: 400;
-    font-size: 12px;
-    height: 200px;
-    width: 200px
-}
+  }
 
 
 .pictures{
@@ -172,6 +169,12 @@ h2 {
     color: white;
 }
 
+.phrase{ 
+    padding-left: inherit;
+    font-size: 12px;
+    padding: 15px 50px;
+    width: 200px;
+}
 /* the content above contains bottom related CSS */
 
 .footer {
